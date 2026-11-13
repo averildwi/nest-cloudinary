@@ -4,7 +4,7 @@
   "description": "Interactive CLI that adds a Cloudinary upload module (service, file-validation pipe and env wiring) to an existing NestJS project.",
   "main": "bin/generate-interactive.js",
   "bin": {
-    "nest-cloudinary": "./bin/generate-interactive.js"
+    "nest-cloudinary": "bin/generate-interactive.js"
   },
   "files": [
     "bin",
