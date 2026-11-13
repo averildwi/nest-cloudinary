@@ -1,0 +1,46 @@
+{
+  "name": "@averildwi/nest-cloudinary",
+  "version": "1.0.0",
+  "description": "Interactive CLI that adds a Cloudinary upload module (service, file-validation pipe and env wiring) to an existing NestJS project.",
+  "main": "bin/generate-interactive.js",
+  "bin": {
+    "nest-cloudinary": "./bin/generate-interactive.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "templates",
+    "docs",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test test/unit.test.js test/workspace.test.js test/install.test.js test/package.test.js"
+  },
+  "keywords": [
+    "nestjs",
+    "cloudinary",
+    "upload",
+    "media",
+    "cli",
+    "scaffold",
+    "multer"
+  ],
+  "author": "averildwi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/averildwi/nest-cloudinary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/averildwi/nest-cloudinary/issues"
+  },
+  "homepage": "https://github.com/averildwi/nest-cloudinary#readme",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "fs-extra": "^11.3.6",
+    "inquirer": "^9.0.0"
+  }
+}
